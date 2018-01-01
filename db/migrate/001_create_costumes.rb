@@ -1,7 +1,7 @@
 class CreateCostumes < ActiveRecord::Migration[5.1]
   def change
     create_table :costumes do |t|
-      
+
   end
 end
 # By convention, the class name should match the part of the
