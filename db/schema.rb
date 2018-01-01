@@ -23,6 +23,10 @@ ActiveRecord::Schema.define(version: 3) do
 
   create_table "costumes_stores", force: :cascade do |t|
     t.string "name"
+    t.string "location"
+    t.integer "inventory"
+    t.integer "employees"
+    t.boolean "open"
   end
 
   create_table "haunted_houses", force: :cascade do |t|
